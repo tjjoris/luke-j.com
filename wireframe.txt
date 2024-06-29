@@ -1,0 +1,66 @@
+Wireframe:
+
+All pages:
+Navigation bar floats at top.
+Navigation bar links:
+Introduction, Resume, Projects, Contact
+Footer:
+Date, Creator copyright
+all pages have a light grey green background, with dark grey text.
+Headers have dark yellow grey text.
+
+Page 1, Introduction:
+(h1) Luke Johnson
+(photo)
+Since 2020 i've developed games independently and with small teams as a hobby. This gave me a passion for programming so now i'm a student in the (link)Algonquin College Computer Programming Co-op. I've been enjoying the program so far, and look forward to a career in computer programming.
+
+Page 2, Resume:
+
+
+(h1) Luke Johnson
+(strong) contact descriptions, contact details.
+(h2)contact info: 
+school email, personal email
+rechrysalis.com
+
+(h2) Summary: 
+As someone who's developed a passion for programming, I look forward to a future working with teams to write elegant efficient code.
+
+(h2) Work Experience
+layout for each job description:
+css:(.job-title)left allign, strong
+css:(.company) left allign
+css:(.work-date) right allign
+work experience bullets are an unordered list.
+
+Jobs Listed:
+CDC, Value Village
+Cell phones activation rep., StarTek
+Team Member, Tim Hortons
+
+(h2) skills
+skills listed are unordered list.
+5 hard skills listed, and 3 soft skills.
+
+(h2) Education
+Indicate where I am currently enrolled with link, and gpa, and honour status.
+
+Third page, Notable Projects:
+
+(h1) Luke's Programming Projects.
+use a div element containing information about each project, and next and previous buttons to switch between them. Try to make div elements fun and interesting looking.
+In each div include:
+css:(.project-title) center allign
+css:(.project-info) 
+css:(.project-image) size 100%
+css:(.project-buttons) no boarder, sider margins bigger than top and bottom, has padding, has colour and hover over colour is darker.
+link: visit project
+link: github page
+
+Fourth Page: Contact
+form for visitor contacting me, submits using GET.
+fieldset contains all form items
+fields include a label, and input fields resize based on screen size responsiveness.
+Fields:
+name, email, message(textarea)
+submit and clear buttons.
