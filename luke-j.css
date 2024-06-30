@@ -1,0 +1,36 @@
+/*luke-j.css style sheet for luke-j website last edited 2024-June-30 by Luke Johnson*/
+*{
+    background-color: darkolivegreen;
+}
+h1{
+    text-align: center;
+}
+#luke-img {
+    width:600px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+body{
+    margin:0px;
+}
+.navigation-bar {
+    /* margin:0px;
+    border:0px;
+    padding:0px; */
+
+    background-color: beige;
+}
+.navigation-button {
+    background:#888;
+    padding: 10px, 50px;
+    border:none;
+    outline:none;
+    margin: 5px auto;
+    border-left:100px auto;
+    font-size:1.5em;
+    color:antiquewhite;
+}
+.navigation-button:hover{
+    background: #333;
+}
