@@ -1,14 +1,21 @@
 /*luke-j.css style sheet for luke-j website last edited 2024-June-30 by Luke Johnson*/
 *{
-    background-color: darkolivegreen;
+    background-color: rgb(59, 73, 34);
 }
 h1{
     text-align: center;
-    color:#c8c8c8;
+    color:#898d56;
     /* text-shadow:0px 0px 8px #888; */
 }
-p{
-    color:#c8c8c8;;
+h2{
+    color:#82895f
+}
+p, ul{
+    color:#b0b0b0;
+    font-size:1.1em;
+}
+a{
+    color:rgb(74, 189, 189);
 }
 #luke-img {
     width:600px;
