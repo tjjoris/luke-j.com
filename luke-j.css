@@ -92,6 +92,7 @@ a{
 .project-navigation-button-item{
     grid-row:5;
     text-align: center;
+    min-height: 30px;
 }
 
 #project-image{
@@ -99,4 +100,12 @@ a{
 }
 #project-title{
     text-align:center;
+}
+.project-navigation-button{
+    background-color: rgb(115, 84, 43);
+    height:100%;
+    width:60%;
+}
+.project-navigation-button:hover{
+    background: rgb(80, 59, 30);;
 }
