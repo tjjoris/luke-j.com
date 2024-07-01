@@ -59,14 +59,12 @@ a{
 }
 /* notable projects stylesheet */
 #projects{
+    margin-top:50px;
     background-color: black;
     display:grid;
     max-width: 600px;
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto auto;
-}
-#project-image{
-    width:100%;
 }
 /* .project-links{
     display:flex;
@@ -85,6 +83,7 @@ a{
 .project-related-link-item{
     grid-row:3;
     grid-column: auto;
+    text-align:center;
 }
 #project-description-item{
     grid-row:4;
@@ -92,4 +91,12 @@ a{
 }
 .project-navigation-button-item{
     grid-row:5;
+    text-align: center;
+}
+
+#project-image{
+    width:100%;
+}
+#project-title{
+    text-align:center;
 }
