@@ -57,3 +57,25 @@ a{
 .resume-contact{
     margin-left:20px;    
 }
+/* notable projects stylesheet */
+.project-image{
+    width:600px;
+}
+.project-links{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+/* .project-link{
+    display:inline;
+    text-align:left;
+    position: relative;
+    left:30px;
+}
+.github-link{
+    display:inline;
+    text-align:right;
+    position:relative;
+    right:30px;
+} */
