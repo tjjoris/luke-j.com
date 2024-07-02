@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./luke-j.css" type="text/css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <!--the navigation bar-->
+    <div class="navigation-bar">
+        <div class="navigation-item">
+            <button class="navigation-button" onclick="location.href='./'" type="button">Introduction</button>
+        </div>
+        <div class="navigation-item">
+            <button class="navigation-button" onclick="location.href='./resume.html'" type="button">Resume</button>
+        </div>
+        <div class="navigation-item">
+            <button class="navigation-button" onclick="location.href='./notable-projects.html'" type="button">Notable Projects</button>
+        </div>
+        <div class="navigation-item">
+            <button class="navigation-button" onclick="location.href='./contact.html'" type="button">Contact</button>
+        </div>
+    </div>
+    
+    <h1>Contact</h1>
+    <!-- post method -->
+    <form action="Contact.php" method="post" enctype="text/plain">
+        <fieldset id="contact">
+            <!-- name -->
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email">
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="message" id="message" rows="9" cols="60"></textarea>
+
+
+        </fieldset>
+    </form> 
+    <!-- form -->
+</body>
+</html>

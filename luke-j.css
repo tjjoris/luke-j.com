@@ -109,3 +109,12 @@ a{
 .project-navigation-button:hover{
     background: rgb(80, 59, 30);;
 }
+/* contact form stylesheet */
+#contact, #contact label{
+    background-color: beige;
+    font-size:1.2em;
+}
+#contact input, #contact textarea{
+    background-color: #888;
+    font-size:1.2em;
+}
