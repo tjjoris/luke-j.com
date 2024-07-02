@@ -26,21 +26,21 @@
     </div>
     <!--main page-->
     <title>Notable Projects</title>
-    <div id="projects">
+    <div id="projects-container">
         <div id="project-title-item">
             <h2 id="project-title">Regrowth</h2>
         </div>
         <div id="project-image-item"> 
-            <img id="project-image" src="./images/regrowth-screenshot.jpg" alt="A screenshot of the game Regrowth">
+            <img id="project-image" src="./images/regrowth-screenshot.jpg" alt="An image of the current selected game.">
         </div>
         <div class="project-related-link-item">
-            <a id="project-link" href="https://rechrysalis.com/regrowth/v1/">Play Regrowth</a>
+            <a id="project-link" href="https://rechrysalis.com/regrowth/v1/">Play</a>
         </div>
         <div class="project-related-link-item">
             <a id="github-link" href="https://github.com/tjjoris/regrowth-javascript">github link</a>
         </div>
         <div id="project-description-item">
-            <p> 
+            <p id="project-description"> 
                 A browser based game programmed in javascript, CSS, and HTML, created by Luke Johnson on 2024, June, 30
             </p>
         </div>
@@ -48,7 +48,7 @@
             <button class="project-navigation-button" onclick="prev()" type="button">Previous</button>
         </div>
         <div class="project-navigation-button-item">
-            <button class="project-navigation-button" type="button">Next</button>
+            <button class="project-navigation-button" onclick="next()" type="button">Next</button>
         </div>
         </div>
     </div>
