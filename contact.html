@@ -24,7 +24,7 @@
     </div>
     
     <h1>Contact</h1>
-    <!-- post method -->
+    <!-- form post method -->
     <form action="Contact.php" method="post" enctype="text/plain">
         <fieldset id="contact">
             <!-- name -->
@@ -32,14 +32,19 @@
             <br>
             <input type="text" name="name" id="name">
             <br>
+            <!-- email -->
             <label for="email">Email:</label>
             <br>
             <input type="text" name="email" id="email">
             <br>
+            <!-- message -->
             <label for="message">Message:</label>
             <br>
             <textarea name="message" id="message" rows="9" cols="60"></textarea>
-
+            <br>
+            <!-- form rest and submit buttons -->
+            <input type ="reset">
+            <input type ="submit">
 
         </fieldset>
     </form> 

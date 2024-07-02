@@ -117,4 +117,5 @@ a{
 #contact input, #contact textarea{
     background-color: #888;
     font-size:1.2em;
+    border:thin;
 }
