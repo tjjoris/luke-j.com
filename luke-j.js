@@ -89,12 +89,8 @@ function setItem(){
     projectTitle.innerHTML = projectItems[i].title;    
     projectImg.setAttribute("src", "images/" + projectItems[i].image);
     projectDescription.innerHTML = projectItems[i].description
-    // projectLink.setAttribute("href", projectItems[i].projectLink);
-    console.log(projectLink);
-
-    projectLink.setAttribute("onclick", "location.href='" + projectItems[i].projectLink + "'");
-    console.log(projectLink.getAttribute("onclick"));
-    githubLink.setAttribute("href", projectItems[i].githubLink);
+    projectLink.setAttribute("onclick", "location.href='" + projectItems[i].projectLink + "'");    
+    githubLink.setAttribute("onclick", "location.href='" + projectItems[i].githubLink + "'");
     projectUpdate.innerHTML = "Last update: " + projectItems[i].updateDate;
     //hide the github link if no link provided.
     if (projectItems[i].githubLink == undefined){
