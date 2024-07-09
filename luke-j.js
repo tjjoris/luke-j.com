@@ -89,7 +89,11 @@ function setItem(){
     projectTitle.innerHTML = projectItems[i].title;    
     projectImg.setAttribute("src", "images/" + projectItems[i].image);
     projectDescription.innerHTML = projectItems[i].description
-    projectLink.setAttribute("href", projectItems[i].projectLink);
+    // projectLink.setAttribute("href", projectItems[i].projectLink);
+    console.log(projectLink);
+
+    projectLink.setAttribute("onclick", "location.href='" + projectItems[i].projectLink + "'");
+    console.log(projectLink.getAttribute("onclick"));
     githubLink.setAttribute("href", projectItems[i].githubLink);
     projectUpdate.innerHTML = "Last update: " + projectItems[i].updateDate;
     //hide the github link if no link provided.
