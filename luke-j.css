@@ -5,7 +5,6 @@
 h1{
     text-align: center;
     color:#898d56;
-    /* text-shadow:0px 0px 8px #888; */
 }
 h2{
     color:#82895f
@@ -23,16 +22,6 @@ a{
     margin-left:auto;
     margin-right: auto;
 }
-/* body{
-    margin:0px;
-} */
-/* .content-paragraph, p{
-    margin: 20px auto;
-    spacing: 20px auto;
-    padding: 20px auto;
-    
-    background-color:white;
-} */
 .navigation-bar {
     margin:-8px;
     display:flex;
@@ -42,6 +31,7 @@ a{
 }
 .navigation-item{
     margin:10px;
+    background-color: beige;
 }
 .navigation-button {
     background:#888;
@@ -49,10 +39,12 @@ a{
     outline:none;
     font-size:1.5em;
     color:antiquewhite;
+    width:200px;
 }
 .navigation-button:hover{
     background: #333;
 }
+
 /*resume css*/
 .resume-contact{
     margin-left:20px;    
@@ -109,6 +101,9 @@ a{
 .project-navigation-button:hover{
     background: rgb(80, 59, 30);;
 }
+.make-hidden{
+    visibility:hidden;
+}
 /* contact form stylesheet */
 #contact, #contact label{
     background-color: beige;
@@ -122,4 +117,16 @@ a{
 /* footer */
 footer{
     color:#8d8c7e
+}
+/* mobile responsiveness */
+@media screen and (max-width:900px) {
+/* navigation bar responsive design */
+    .navigation-bar{
+        flex-direction:column;
+    }
+
+/* intro repsonsivene design */
+    #luke-img{
+        width:400px;
+    }
 }

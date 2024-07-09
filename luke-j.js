@@ -22,6 +22,7 @@ projectItems[1].title = "Science of Realms";
 projectItems[1].image = "science-of-realms-cover-image2.png";
 projectItems[1].description = "A browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen. Last Updated 2024, May 14";
 projectItems[1].projectLink = "https://tarsin.itch.io/scienceofrealms";
+projectItems[1].githubLink = "https://github.com/tjjoris/DEP_GoedWareJam";
 
 //rechrysalis project
 projectItems[2] = new Object;
@@ -46,7 +47,7 @@ projectItems[4].image = "space-lane-sweeper-cover-image.png";
 projectItems[4].description = "A browser based game about clearing space debris. Created by Luke Johnson, Jacob Johnson and Joe Neff. Last updated 2021, July 16";
 projectItems[4].projectLink = "https://tarsin.itch.io/spacelane-sweeper";
 projectItems[4].githubLink = "https://github.com/tjjoris/-GameJamSummer2021";
-
+console.log(githubLink)
 
 // var projectImages = ["regrowth-screenshot.jpg", "science-of-realms-cover-image2.png", 
 //     "rechrysalis-screenshot.jpg", "otherworldly-relics-screenshot.png", "space-lane-sweeper-cover-image.png"];
@@ -88,11 +89,13 @@ function setItem(){
     projectLink.setAttribute("href", projectItems[i].projectLink);
     githubLink.setAttribute("href", projectItems[i].githubLink);
 
-    //hide the github link if no link provide, otherwise show it.
+    //hide the github link if no link provided.
     if (projectItems[i].githubLink == undefined){
-        githubLink.innerHTML = "";
+        githubLink.classList.add("make-hidden");
     }
+    //github link is provided so show it.
     else {
         githubLink.innerHTML = "github";
+        githubLink.classList.remove("make-hidden");
     }
 }
