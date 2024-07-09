@@ -1,4 +1,5 @@
 <!--notable-projects.html, a showcase of projects created by me. Modified on 2024, July 09, created by Luke Johnson-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,52 +12,68 @@
     <meta name="tags" content="Luke Johnson, programmer, computer programming, 
     games, mobile games, web games, indie games, javascript, c#, unity, godot, gdscript, github">
 </head>
+
 <body>
     <!--the navigation bar-->
     <div class="navigation-bar">
+        <!-- navigate to index -->
         <div class="navigation-item">
             <button class="navigation-button" onclick="location.href='./index.html'" type="button">Introduction</button>
         </div>
+        <!-- navigate to resume -->
         <div class="navigation-item">
             <button class="navigation-button" onclick="location.href='./resume.html'" type="button">Resume</button>
         </div>
+        <!-- navigate to notable projects -->
         <div class="navigation-item">
             <button class="navigation-button" onclick="location.href='./notable-projects.html'" type="button">Notable Projects</button>
         </div>
+        <!-- navigate to contact form -->
         <div class="navigation-item">
             <button class="navigation-button" onclick="location.href='./contact.html'" type="button">Contact</button>
         </div>
     </div>
+
     <!--main page-->
     <h1>Notable Projects</h1>
     <div id="projects-container">
+        <!-- project title contains the name of the project -->
         <div id="project-title-item">
             <h2 id="project-title">Regrowth</h2>
         </div>
+        <!-- project image contains the image of the project -->
         <div id="project-image-item"> 
             <img id="project-image" src="./images/regrowth-screenshot.jpg" alt="An image of the current selected game.">
         </div>
+        <!-- project link button links to the website to use the project(play the game) -->
         <div class="project-related-link-item">
             <button class="project-link-button" id="project-link" type="button">Play</button>
         </div>
+        <!-- github link button links to the github page for this project -->
         <div class="project-related-link-item">
             <button class="project-link-button" id="github-link" type="button">Github</button>
         </div>
+        <!-- project description is a short desciption of the project -->
         <div id="project-description-item">
             <p id="project-description"> 
             </p>
         </div>
+        <!-- project update is the date the project has last been updated -->
         <div id="project-update-item">
             <p id="project-update">                
             </p>
         </div>
+        <!-- previous button navigates to the previous project -->
         <div class="project-navigation-button-item">
             <button class="project-navigation-button" onclick="prev()" type="button">Previous</button>
         </div>
+        <!-- next button navigates to the next project -->
         <div class="project-navigation-button-item">
             <button class="project-navigation-button" onclick="next()" type="button">Next</button>
         </div>
     </div>
+    
+    <!-- footer -->
     <footer>
         Luke Johnson 2024 Copyright
     </footer>
