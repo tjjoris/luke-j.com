@@ -1,5 +1,5 @@
 /*
-luke-j.js Javascript functionality for luke-j website, last edited 2024-June-30 by Luke Johnson
+luke-j.js Javascript functionality for luke-j website, last edited 2024-July-09 by Luke Johnson
 */
 let projectTitle = document.getElementById("project-title");
 let projectImg = document.getElementById("project-image");
@@ -55,10 +55,7 @@ projectItems[4].githubLink = "https://github.com/tjjoris/-GameJamSummer2021";
 projectItems[4].updateDate = "2021, July 16";
 console.log(githubLink)
 
-// var projectImages = ["regrowth-screenshot.jpg", "science-of-realms-cover-image2.png", 
-//     "rechrysalis-screenshot.jpg", "otherworldly-relics-screenshot.png", "space-lane-sweeper-cover-image.png"];
-
-let i = 0; //current project index.
+let i = 0; //current project index. This is used when cyclilng through current displayed project.
 
 //on load set the default project
 window.onload = function() {

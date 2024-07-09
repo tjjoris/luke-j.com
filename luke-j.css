@@ -1,4 +1,5 @@
-/*luke-j.css style sheet for luke-j website last edited 2024-June-30 by Luke Johnson*/
+/*luke-j.css style sheet for luke-j website last edited 2024-July-09 by Luke Johnson*/
+/* all pages: */
 *{
     background-color: rgb(59, 73, 34);
 }
@@ -16,12 +17,7 @@ p, ul{
 a{
     color:rgb(74, 189, 189);
 }
-#luke-img {
-    width:600px;
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-}
+/* navigation bar, uniform across all pages */
 .navigation-bar {
     margin:-8px;
     display:flex;
@@ -44,17 +40,20 @@ a{
 .navigation-button:hover{
     background: #333;
 }
-
+/* introduction page */
+#luke-img {
+    width:600px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
 /*resume css*/
 .resume-contact{
     margin-left:20px;    
 }
 /* notable projects stylesheet */
 #projects-container{
-    /* margin-top:10px; */
-    /* background-color: black; */
     display:grid;
-    /* max-width: 800px; */
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto auto auto;
     margin-top:10px;
@@ -96,9 +95,6 @@ a{
 
 #project-image{
     display:block;
-    /* max-width:100%;
-    min-height:100%; */
-    /* width:100%; */
     height:100%;
     margin:auto;
 }
@@ -147,9 +143,6 @@ footer{
         width:400px;
     }
     /* projects page responsive design */
-    /* #projects-container{
-        width:300px;
-    } */
     #project-image-item{
         height:200px;
     }
