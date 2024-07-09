@@ -52,12 +52,15 @@ a{
 /* notable projects stylesheet */
 #projects-container{
     /* margin-top:10px; */
-    background-color: black;
+    /* background-color: black; */
     display:grid;
-    max-width: 600px;
+    /* max-width: 800px; */
     grid-template-columns:auto auto;
-    grid-template-rows:auto auto auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto;
     margin-top:10px;
+    margin-left:0px auto;
+    margin-right:0px auto;
+    justify-content:center;
 }
 #project-title-item{
     grid-row:1;
@@ -76,18 +79,27 @@ a{
 #project-description-item{
     grid-row:4;
     grid-column: 1 / 3;
-    min-height:150px;
+    min-height:100px;
+    max-width:600px;
+}
+#project-update-item{
+    grid-row:5;
+    grid-column:1 / 3;
+    text-align:right;
+    max-width:600px;
 }
 .project-navigation-button-item{
-    grid-row:5;
+    grid-row:6;
     text-align: center;
     min-height: 30px;
 }
 
 #project-image{
     display:block;
-    max-width:100%;
-    min-height:100%;
+    /* max-width:100%;
+    min-height:100%; */
+    /* width:100%; */
+    height:100%;
     margin:auto;
 }
 #project-title{
@@ -96,7 +108,7 @@ a{
 .project-navigation-button{
     background-color: rgb(115, 84, 43);
     height:100%;
-    width:60%;
+    width:200px;
 }
 .project-navigation-button:hover{
     background: rgb(80, 59, 30);;
@@ -114,9 +126,14 @@ a{
     font-size:1.2em;
     border:thin;
 }
+#contact textarea{
+    width: 800px;
+    height:350px;
+}
 /* footer */
 footer{
-    color:#8d8c7e
+    color:#343434;
+    background-color:#8b8d86;
 }
 /* mobile responsiveness */
 @media screen and (max-width:900px) {
@@ -125,8 +142,22 @@ footer{
         flex-direction:column;
     }
 
-/* intro repsonsivene design */
+/* intro page repsonsivene design */
     #luke-img{
         width:400px;
+    }
+    /* projects page responsive design */
+    /* #projects-container{
+        width:300px;
+    } */
+    #project-image-item{
+        height:200px;
+    }
+    .project-navigation-button{
+        width:100px;
+    }
+    /* contact page responsive design */
+    #contact textarea{
+        width: 400px;
     }
 }
