@@ -1,4 +1,5 @@
 /*luke-j.css style sheet for luke-j website last edited 2024-July-09 by Luke Johnson*/
+
 /* all pages: */
 *{
     background-color: rgb(59, 73, 34);
@@ -17,6 +18,7 @@ p, ul{
 a{
     color:rgb(74, 189, 189);
 }
+
 /* navigation bar, uniform across all pages */
 .navigation-bar {
     margin:-8px;
@@ -40,6 +42,7 @@ a{
 .navigation-button:hover{
     background: #333;
 }
+
 /* introduction page */
 #luke-img {
     width:600px;
@@ -47,18 +50,18 @@ a{
     margin-left:auto;
     margin-right: auto;
 }
+
 /*resume css*/
 .resume-contact{
     margin-left:20px;    
 }
+
 /* notable projects stylesheet */
 #projects-container{
     display:grid;
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto auto auto;
-    margin-top:10px;
-    margin-left:0px auto;
-    margin-right:0px auto;
+    margin: 10px 0px auto 0px;
     justify-content:center;
 }
 #project-title-item{
@@ -122,6 +125,7 @@ a{
 .make-hidden{
     visibility:hidden;
 }
+
 /* contact form stylesheet */
 #contact, #contact label{
     background-color: beige;
@@ -141,8 +145,10 @@ footer{
     color:#343434;
     background-color:#8b8d86;
 }
+
 /* mobile responsiveness */
 @media screen and (max-width:900px) {
+
 /* navigation bar responsive design */
     .navigation-bar{
         flex-direction:column;
@@ -152,6 +158,7 @@ footer{
     #luke-img{
         width:400px;
     }
+
     /* projects page responsive design */
     #project-image-item{
         height:200px;
@@ -159,6 +166,7 @@ footer{
     .project-navigation-button, .project-link-button{
         width:100px;
     }
+
     /* contact page responsive design */
     #contact textarea{
         width: 400px;

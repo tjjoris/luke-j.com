@@ -1,6 +1,7 @@
 /*
 luke-j.js Javascript functionality for luke-j website, last edited 2024-July-09 by Luke Johnson
 */
+//variables store references to html elements to update based on the current project.
 let projectTitle = document.getElementById("project-title");
 let projectImg = document.getElementById("project-image");
 let projectDescription = document.getElementById("project-description");
@@ -8,8 +9,11 @@ let projectLink = document.getElementById("project-link");
 let githubLink = document.getElementById("github-link");
 let projectUpdate = document.getElementById("project-update");
 
-//regrowth project
+//projectItems is an array of objects, each object represents a project with it's own fields
+//which is used to populate the elements in the html page about that project.
 let projectItems = new Array;
+
+//regrowth project
 projectItems[0] = new Object;
 projectItems[0].title = "Regrowth";
 projectItems[0].image = "regrowth-screenshot.jpg";
@@ -84,14 +88,22 @@ function next(){
     console.log(i);
     setItem();
 }
+
 //set all items in the div container for the current selected project.
 function setItem(){
+    //project title
     projectTitle.innerHTML = projectItems[i].title;    
+    //project image
     projectImg.setAttribute("src", "images/" + projectItems[i].image);
+    //project description
     projectDescription.innerHTML = projectItems[i].description
+    //link to use project
     projectLink.setAttribute("onclick", "location.href='" + projectItems[i].projectLink + "'");    
+    //link to github for project
     githubLink.setAttribute("onclick", "location.href='" + projectItems[i].githubLink + "'");
+    //project last update date
     projectUpdate.innerHTML = "Last update: " + projectItems[i].updateDate;
+    
     //hide the github link if no link provided.
     if (projectItems[i].githubLink == undefined){
         githubLink.classList.add("make-hidden");
