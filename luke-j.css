@@ -152,6 +152,8 @@ footer{
 /* navigation bar responsive design */
     .navigation-bar{
         flex-direction:column;
+        justify-content: center;
+        align-items: center;
     }
 
 /* intro page repsonsivene design */

@@ -14,51 +14,99 @@ let projectUpdate = document.getElementById("project-update");
 let projectItems = new Array;
 
 //regrowth project
-projectItems[0] = new Object;
-projectItems[0].title = "Regrowth";
-projectItems[0].image = "regrowth-screenshot.jpg";
-projectItems[0].description = "A browser based mobile or PC game testing new game mechanics programmed in javascript, CSS, and HTML, created by Luke Johnson.";
-projectItems[0].projectLink = "https://rechrysalis.com/regrowth/v1/";
-projectItems[0].githubLink = "https://github.com/tjjoris/regrowth-javascript";
-projectItems[0].updateDate = "2024, June, 30";
+// projectItems[0] = new Object;
+// projectItems[0].title = "Regrowth";
+// projectItems[0].image = "regrowth-screenshot.jpg";
+// projectItems[0].description = "A browser based mobile or PC game testing new game mechanics programmed in javascript, CSS, and HTML, created by Luke Johnson.";
+// projectItems[0].projectLink = "https://rechrysalis.com/regrowth/v1/";
+// projectItems[0].githubLink = "https://github.com/tjjoris/regrowth-javascript";
+// projectItems[0].updateDate = "2024, June, 30";
 
-//the science of realms project
-projectItems[1] = new Object;
-projectItems[1].title = "Science of Realms";
-projectItems[1].image = "science-of-realms-cover-image2.png";
-projectItems[1].description = "A browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.";
-projectItems[1].projectLink = "https://tarsin.itch.io/scienceofrealms";
-projectItems[1].githubLink = "https://github.com/tjjoris/DEP_GoedWareJam";
-projectItems[1].updateDate = "2024, May 14";
+// //the science of realms project
+// projectItems[1] = new Object;
+// projectItems[1].title = "Science of Realms";
+// projectItems[1].image = "science-of-realms-cover-image2.png";
+// projectItems[1].description = "A browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.";
+// projectItems[1].projectLink = "https://tarsin.itch.io/scienceofrealms";
+// projectItems[1].githubLink = "https://github.com/tjjoris/DEP_GoedWareJam";
+// projectItems[1].updateDate = "2024, May 14";
 
-//rechrysalis project
-projectItems[2] = new Object;
-projectItems[2].title = "Rechrysalis";
-projectItems[2].image = "rechrysalis-screenshot.jpg";
-projectItems[2].description = "A browser based mobile or PC game involving RTS elements. Created by Luke Johnson.";
-projectItems[2].projectLink = "https://rechrysalis.com/V30014/";
-projectItems[2].githubLink = "https://github.com/tjjoris/Rechrysalis-V3";
-projectItems[2].updateDate = "2023, June 15";
+// //rechrysalis project
+// projectItems[2] = new Object;
+// projectItems[2].title = "Rechrysalis";
+// projectItems[2].image = "rechrysalis-screenshot.jpg";
+// projectItems[2].description = "A browser based mobile or PC game involving RTS elements. Created by Luke Johnson.";
+// projectItems[2].projectLink = "https://rechrysalis.com/V30014/";
+// projectItems[2].githubLink = "https://github.com/tjjoris/Rechrysalis-V3";
+// projectItems[2].updateDate = "2023, June 15";
 
-//otherworldly relics project
-projectItems[3] = new Object;
-projectItems[3].title = "Otherworldly Relics";
-projectItems[3].image = "otherworldly-relics-screenshot.png";
-projectItems[3].description = "A browser based turn based puzzle game. Created by Luke Johnson, Jacob Johnson and Kaidan Cosmos.";
-projectItems[3].projectLink = "https://tarsin.itch.io/otherworldly-relics";
-projectItems[3].githubLink = "https://github.com/Tars1n/GameJam-2023April";
-projectItems[3].updateDate = "2023, May 05";
+// //otherworldly relics project
+// projectItems[3] = new Object;
+// projectItems[3].title = "Otherworldly Relics";
+// projectItems[3].image = "otherworldly-relics-screenshot.png";
+// projectItems[3].description = "A browser based turn based puzzle game. Created by Luke Johnson, Jacob Johnson and Kaidan Cosmos.";
+// projectItems[3].projectLink = "https://tarsin.itch.io/otherworldly-relics";
+// projectItems[3].githubLink = "https://github.com/Tars1n/GameJam-2023April";
+// projectItems[3].updateDate = "2023, May 05";
 
-//space lane sweeper project.
-projectItems[4] = new Object;
-projectItems[4].title = "Spacelane Sweepers";
-projectItems[4].image = "space-lane-sweeper-cover-image.png";
-projectItems[4].description = "A browser based game about clearing space debris. Created by Luke Johnson, Jacob Johnson and Joe Neff.";
-projectItems[4].projectLink = "https://tarsin.itch.io/spacelane-sweeper";
-projectItems[4].githubLink = "https://github.com/tjjoris/-GameJamSummer2021";
-projectItems[4].updateDate = "2021, July 16";
-console.log(githubLink)
+// //space lane sweeper project.
+// projectItems[4] = new Object;
+// projectItems[4].title = "Spacelane Sweeper";
+// projectItems[4].image = "space-lane-sweeper-cover-image.png";
+// projectItems[4].description = "A browser based game about clearing space debris. Created by Luke Johnson, Jacob Johnson and Joe Neff.";
+// projectItems[4].projectLink = "https://tarsin.itch.io/spacelane-sweeper";
+// projectItems[4].githubLink = "https://github.com/tjjoris/-GameJamSummer2021";
+// projectItems[4].updateDate = "2021, July 16";
+// console.log(githubLink)
 
+
+let projectItems = [
+    {
+        //Regrowth
+        title:"Regrowth",
+        image:"regrowth-screenshot.jpg",
+        description:"A browser based mobile or PC game testing new game mechanics programmed in javascript, CSS, and HTML, created by Luke Johnson.",
+        projectLink:"https://rechrysalis.com/regrowth/v1/",
+        githubLink:"https://github.com/tjjoris/regrowth-javascript",
+        updateDate:"2024, June, 30"
+    }, 
+    { 
+        //Science of Realms
+        title:"Science of Realms",
+        image:"science-of-realms-cover-image2.png",
+        description:"A browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.",
+        projectLink:"https://tarsin.itch.io/scienceofrealms",
+        githubLink:"https://github.com/tjjoris/DEP_GoedWareJam",
+        updateDate:"2024, May 14"
+    }, 
+    {
+        //Rechrysalis
+        title:"Rechrysalis",
+        image:"rechrysalis-screenshot.jpg",
+        description:"A browser based mobile or PC game involving RTS elements. Created by Luke Johnson.",
+        projectLink:"https://rechrysalis.com/V30014/",
+        githubLink:"https://github.com/tjjoris/Rechrysalis-V3",
+        updateDate:"2023, June 15"
+    },
+    {
+        //Otherworldly Relics
+        title:"Otherworldly Relics",
+        image:"otherworldly-relics-screenshot.png",
+        description:"A browser based turn based puzzle game. Created by Luke Johnson, Jacob Johnson and Kaidan Cosmos.",
+        projectLink:"https://tarsin.itch.io/otherworldly-relics",
+        githubLink:"https://github.com/Tars1n/GameJam-2023April",
+        updateDate:"2023, May 05"
+    },
+    {
+        //Spacelane Sweeper
+        title:"Spacelane Sweeper",
+        image:"space-lane-sweeper-cover-image.png",
+        description:"A browser based game about clearing space debris. Created by Luke Johnson, Jacob Johnson and Joe Neff.",
+        projectLink:"https://tarsin.itch.io/spacelane-sweeper",
+        githubLink:"https://github.com/tjjoris/-GameJamSummer2021",
+        updateDate:"2021, July 16"
+    }
+]
 let i = 0; //current project index. This is used when cyclilng through current displayed project.
 
 //on load set the default project
