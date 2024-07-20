@@ -11,7 +11,7 @@ let projectUpdate = document.getElementById("project-update");
 
 //projectItems is an array of objects, each object represents a project with it's own fields
 //which is used to populate the elements in the html page about that project.
-let projectItems = new Array;
+// let projectItems = new Array;
 
 //regrowth project
 // projectItems[0] = new Object;
