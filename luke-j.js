@@ -27,7 +27,7 @@ let projectItems = [
         //Science of Realms
         title:"Science of Realms",
         image:"science-of-realms-cover-image2.png",
-        description:"A browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.",
+        description:"An award winning browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.",
         projectLink:"https://tarsin.itch.io/scienceofrealms",
         githubLink:"https://github.com/tjjoris/DEP_GoedWareJam",
         updateDate:"2024, May 14"
