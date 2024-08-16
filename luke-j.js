@@ -18,7 +18,7 @@ let projectItems = [
         //Regrowth
         title:"Regrowth",
         image:"regrowth-screenshot.jpg",
-        description:"A browser based mobile or PC game testing new game mechanics programmed in javascript, CSS, and HTML, created by Luke Johnson.",
+        description:"A browser based mobile or PC game testing new game mechanics. Programmed in javascript, CSS, and HTML, created by Luke Johnson.",
         projectLink:"https://rechrysalis.com/regrowth/v1/",
         githubLink:"https://github.com/tjjoris/regrowth-javascript",
         updateDate:"2024, June, 30"
@@ -27,7 +27,7 @@ let projectItems = [
         //Science of Realms
         title:"Science of Realms",
         image:"science-of-realms-cover-image2.png",
-        description:"An award winning browser based platformer programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.",
+        description:"An award winning browser based platformer. Programmed in Godot and GDscript, Created by Jacob Johnson, Naomi Landa, Yan Uchitel, Kaidan Cosmos, Luke Johnson, and Andrew Nguyen.",
         projectLink:"https://tarsin.itch.io/scienceofrealms",
         githubLink:"https://github.com/tjjoris/DEP_GoedWareJam",
         updateDate:"2024, May 14"
@@ -36,7 +36,7 @@ let projectItems = [
         //Rechrysalis
         title:"Rechrysalis",
         image:"rechrysalis-screenshot.jpg",
-        description:"A browser based mobile or PC game involving RTS elements. Created by Luke Johnson.",
+        description:"A browser based mobile or PC game involving RTS elements. Programmed in C# and Unity. Created by Luke Johnson.",
         projectLink:"https://rechrysalis.com/V30014/",
         githubLink:"https://github.com/tjjoris/Rechrysalis-V3",
         updateDate:"2023, June 15"
@@ -45,7 +45,7 @@ let projectItems = [
         //Otherworldly Relics
         title:"Otherworldly Relics",
         image:"otherworldly-relics-screenshot.png",
-        description:"A browser based turn based puzzle game. Created by Luke Johnson, Jacob Johnson and Kaidan Cosmos.",
+        description:"A browser based turn based puzzle game. Created by Luke Johnson, Programmed in C# and Unity. Created by Jacob Johnson and Kaidan Cosmos.",
         projectLink:"https://tarsin.itch.io/otherworldly-relics",
         githubLink:"https://github.com/Tars1n/GameJam-2023April",
         updateDate:"2023, May 05"
@@ -54,7 +54,7 @@ let projectItems = [
         //Spacelane Sweeper
         title:"Spacelane Sweeper",
         image:"space-lane-sweeper-cover-image.png",
-        description:"A browser based game about clearing space debris. Created by Luke Johnson, Jacob Johnson and Joe Neff.",
+        description:"A browser based game about clearing space debris. Programmed in C# and Unity. Created by Luke Johnson, Jacob Johnson and Joe Neff.",
         projectLink:"https://tarsin.itch.io/spacelane-sweeper",
         githubLink:"https://github.com/tjjoris/-GameJamSummer2021",
         updateDate:"2021, July 16"
